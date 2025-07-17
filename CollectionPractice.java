@@ -11,7 +11,6 @@ import java.util.Random;
 record Order(String orderCategory, String orderItem, Double price) {
 
 }
-
 public class CollectionPractice {
 	Connection con = null;
 	PreparedStatement pstmt = null;
